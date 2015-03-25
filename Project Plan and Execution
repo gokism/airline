@@ -1,0 +1,29 @@
+
+Specific
+
+1. Check again for not null constraints on the columns.
+2. check time for GMT use cases.
+3. Duration in flight data
+4. fare amount and restrictions null default. checks
+5. check max seat null
+6. airplane total number of seats is it equal to max seats.
+7. seat reservation name null checkings
+8. Write a stored procedure or trigger to update available seats.
+9. wRITE a trigger to check the max seats on airplane type and airplane
+
+
+
+
+Generic
+
+1. Data import problem.
+2. Triggers checks
+3. Application use cases.
+4. Default values.
+5. Domain data types.
+
+
+
+Final checks:
+1. check all foriegn key references for alter eq (airplane id foreign in flight instance)
+2. date contraints on days for flight instance triggers

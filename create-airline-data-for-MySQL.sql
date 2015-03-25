@@ -75,7 +75,7 @@ CREATE TABLE AIRPLANE (
     
 CREATE TABLE SEAT_RESERVATION (
 	flight_number varchar(10) not null,
-    r_date date not null,
+    r_date date not null, -- change the name to flight_date
     seat_number int not null,
     customer_name varchar(30),
     customer_phone char(10),
